@@ -66,4 +66,11 @@ public class TikaClient {
         int index = random.nextInt(clients.size());
         return clients.get(index);
     }
+
+    /**
+     * Generates a session token used to identify requests sent to the server.
+     */
+    public static String newSessionToken() {
+        return Long.toHexString(new Random().nextLong());
+    }
 }
