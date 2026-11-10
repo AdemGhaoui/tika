@@ -19,8 +19,8 @@ package org.apache.tika.eval.app.db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBBuffer extends AbstractDBBuffer {

@@ -21,8 +21,8 @@ import java.io.StringWriter;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
-import javax.net.ssl.X509TrustManager;
 import java.util.Random;
+import javax.net.ssl.X509TrustManager;
 
 import org.apache.tika.client.HttpClientFactory;
 import org.apache.tika.exception.TikaConfigException;
